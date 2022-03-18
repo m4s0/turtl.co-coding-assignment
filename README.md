@@ -41,3 +41,37 @@ Enter into node container
 ```
 make bash
 ```
+
+Install dependencies
+
+```
+make install
+```
+
+Build application
+
+```
+make build
+```
+
+Run lint
+
+```
+make lint
+```
+
+Run application
+
+```
+make run
+```
+
+#### Tests
+
+Application has been designed using a Test Driven Design approach
+
+Run tests
+
+```
+make tests
+```

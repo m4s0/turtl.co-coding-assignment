@@ -26,3 +26,23 @@ logs:
 .PHONY: bash
 bash:
 	cd docker && docker-compose run node bash
+
+.PHONY: install
+install:
+	cd docker && docker-compose run --rm node bash -c 'npm install'
+
+.PHONY: build
+build:
+	cd docker && docker-compose run --rm node bash -c 'npm run build'
+
+.PHONY: lint
+lint:
+	cd docker && docker-compose run --rm node bash -c 'npm run lint'
+
+.PHONY: run
+run:
+	cd docker && docker-compose run --rm node bash -c 'npm run start'
+
+.PHONY: tests
+tests:
+	cd docker && docker-compose run --rm node bash -c 'npm run test'

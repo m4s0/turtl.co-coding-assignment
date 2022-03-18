@@ -1,0 +1,29 @@
+{
+  "name": "turtl.co-coding-assignment",
+  "version": "1.0.0",
+  "description": "Calculate the biggest square you can fit on the page (position, edge length).",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
